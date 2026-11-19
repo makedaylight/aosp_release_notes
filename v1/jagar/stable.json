@@ -3,7 +3,7 @@
   "product": "SolOS",
   "device": "jagar",
   "channel": "stable",
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "releases": [
     {
       "version": "0.9.9.669.customer.3",
@@ -13,24 +13,21 @@
           "type": "new",
           "title": "What's New",
           "items": [
-            "Daylight Mirror: show your Mac or PC screen on your DC-1, over USB-C or Wi-Fi.",
-            "A new Software Update app. It tells you when an update is ready and installs it with one tap."
+            "Daylight Mirror is built in, so you can show your Mac or PC screen on your DC-1 over USB-C or Wi-Fi with the latest Daylight app for your computer from the Daylight Support page.",
+            "The Software Updates app is new: it tells you when an update is ready, shows your version and serial number, and installs the update when you are ready.",
+            "Tap Release Notes in Software Updates to see what's new in each update.",
+            "A Store app is now on your tablet, where you can get the latest Daylight Mirror.",
+            "Use a USB webcam for video calls in apps such as Zoom, Google Meet and Microsoft Teams, with the tablet's own microphone.",
+            "See the battery level of a Bluetooth keyboard or mouse in Settings, if the device reports it."
           ]
         },
         {
           "type": "improvements",
           "title": "Improvements",
           "items": [
-            "Kindle is updated to version 8.157. Your books and sign-in carry over.",
-            "Scrolling with a finger while mirroring a Mac keeps going smoothly instead of stopping.",
-            "The update popups have a cleaner design with clearer buttons, and Software Update now has a Release Notes link."
-          ]
-        },
-        {
-          "type": "fixes",
-          "title": "Bug Fixes",
-          "items": [
-            "The version number on the Software Update screen is no longer cut off."
+            "Kindle is updated to version 8.157 the first time your tablet starts after the update, and your books and sign-in carry over.",
+            "Zoom, Google Meet and Microsoft Teams from the Play Store can use your camera and microphone on your first call without asking, and you can turn this off in Settings.",
+            "The screen now refreshes between 45 and 90 Hz, which replaces any refresh rate you set before."
           ]
         }
       ]
