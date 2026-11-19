@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": 1,
+  "product": "SolOS",
+  "device": "jagar",
+  "channel": "alpha",
+  "updatedAt": "2026-11-16",
+  "releases": [
+    {
+      "version": "1.0.18-alpha.10.32",
+      "date": "2026-11-16",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Snip with the pen: hold the pen’s side button and drag a box around anything on the screen. The snip is saved to your Snips folder and copied to the clipboard. The snip card lets you Share, Mark up or Delete it.",
+            "The taskbar now shows previews of your open apps.",
+            "While the taskbar is open, swipe above it to quickly switch between your open apps.",
+            "Split screen from Home: pick the two apps you want side by side.",
+            "The taskbar has a Clear all button that closes all your open apps.",
+            "Pull the quick menu down a little to see how long until your next calendar event (“33 min to Talk to Christine”), along with battery life, time and date. Let go and it goes back up.",
+            "You can now change what’s in your quick settings in Customization, and arrange it by dragging.",
+            "You can now select web apps in the quick apps section of the quick menu.",
+            "Hold to wake: you can set the power button to need a short hold to wake the tablet, so it doesn’t turn on by accident in a bag. Turn it on in Key Mapper.",
+            "If you wake your tablet in a dark room, the brightness starts at 1%.",
+            "Layered motion: a new animation when you go Home or open an app from the taskbar. Turn it on or off in Customization > Style.",
+            "You can now change the size of app names in Customization > Style.",
+            "Drag the sidebar right to see all the notebooks and documents on your tablet.",
+            "The sidebar clock counts down to sunrise or sunset.",
+            "Make mode: use the walkie-talkie button to talk to your Claude Code sessions. Start new Claude sessions from the tablet, and continue Remote Control sessions as well.",
+            "Software Update has a big Check for updates button.",
+            "The main Settings page ends with your tablet’s serial number, which you can select and copy.",
+            "A notification bell at the top of the notification sheet turns notifications on and off."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "The brightness keys on Bluetooth keyboards now properly increment brightness using Sol’s brightness slider.",
+            "The Bluetooth tile in quick settings shows what kind of device is connected. Hold the tile to see your devices.",
+            "Light/dark mode now starts in Auto.",
+            "The lock screen’s font colour now changes with your wallpaper, so the text is always easy to read.",
+            "Mission control now shows only today’s meetings that haven’t happened yet.",
+            "Settings > Wallpaper now takes you to Home’s Customization menu.",
+            "Each font in Customization now has its own letter spacing, so text in every font looks right.",
+            "The quick menu’s tiles follow the font size you choose in Settings.",
+            "All app icons in the sidebar are now the same size, web apps too, and web apps are listed after your other apps.",
+            "App names in Home now match the names you see elsewhere, so Play Store, Chrome and Docs show their usual names.",
+            "The 24-hour lock screen clock is now called “Sun & moon”, with a short explanation of how to read it.",
+            "The app menu now shows how to delete an app.",
+            "AI overlay: you can tap links in answers, and press and hold an AI response to copy it to your clipboard.",
+            "AI overlay: a message you are typing is kept if you close the chat, and Stop ends an answer.",
+            "AI overlay: drag the edge of the chat to make it wider.",
+            "AI overlay: hold the walkie-talkie button to talk; double press it to switch between Make and Chat.",
+            "AI overlay: choose which AI model answers from the + beside the prompt bar."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "A mouse click near the bottom of the screen no longer takes you Home.",
+            "If you leave the tutorial early, the Tutorial app now picks up where you left off.",
+            "Setting up a new tablet no longer asks whether you want to do the tutorial.",
+            "In the tutorial overview, one tap stops the voice and moves on.",
+            "In the tutorial, you can use the brightness slider while it is being explained.",
+            "In Key Mapper, pressing the power button to choose it no longer puts the tablet to sleep.",
+            "Key Mapper no longer shows Nothing for the Action button’s double press while it opens the Daily Note."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.28",
+      "date": "2026-11-09",
+      "sections": [
+        {
+          "type": "important",
+          "title": "Important",
+          "items": [
+            "Developer options and USB debugging are now on, so you can connect your own computer to your tablet over USB; if you had turned either of them off before, it stays off.",
+            "When you plug your tablet into a computer, it asks “Allow USB debugging?”; only tap Allow for a computer you own, because a computer you allow gets full control of your tablet, can keep connecting over Wi-Fi, and can replace its software.",
+            "“Always allow from this computer” starts unticked: tick it only on your own computer.",
+            "To turn off USB debugging, go to Settings > System > Developer options and switch off USB debugging; leave the switch at the top of Developer options on, because turning that off also resets your tablet's animation speed and screen refresh settings."
+          ]
+        },
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "On the Daylight sign-in screen, tap “Forgot password?” and we'll email you a link to choose a new password.",
+            "If you had a Daylight account before the new sign-in, tap “Have an old Daylight account? Bring it over” on the sign-in screen, and we'll email you a link to choose a password for it.",
+            "When an app you're using has an update ready, a notification such as “Note Overlay update ready” lets you tap Update now, or Tonight to install it the next time your screen turns off.",
+            "Update reminders: until you install an update, its Update available notification comes back about once an hour, and after you clear it four times it stays away until the next update.",
+            "While a computer is connected to your tablet by wireless debugging, mission control shows Wireless debugging connected; tap it to turn wireless debugging off.",
+            "After an update, the “Woohoo!” message has a What's new button that opens the release notes."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Software Update shows your build number, such as 10.28, in big type at the top, with your tablet's serial number in bold beside it; tap the serial number to copy it.",
+            "The Store now checks for app updates by itself while your screen is on, so you no longer need to open it, and it waits until you leave an app before updating that app.",
+            "Your tablet checks for updates when you turn on its screen, if it hasn't checked in the last hour, so a new update shows up sooner.",
+            "Closing the Update available pop-up now only closes it; to put an update off, tap Remind me later.",
+            "After you tap Remind me later, Software Update shows the update that's waiting and its version, instead of a tick.",
+            "The Update available notification now names the update in a few plain words instead of its long version number.",
+            "In Software Update's Settings, Smart Updates is now called Install updates automatically: when it's on, your tablet installs updates by itself while it's charging with the screen off, usually overnight, and when it's off, you're told about each update and install it yourself.",
+            "After installing an update by itself, your tablet waits until the screen is off to restart.",
+            "If an automatic install fails twice, Software Update stops trying and tells you instead.",
+            "An update that would erase your tablet always asks first, and never installs by itself.",
+            "Software Update's own Developer options menu is now called Diagnostics, so it isn't mixed up with Android's Developer options, and its Generate bug report no longer shows a percentage that stalls.",
+            "Tapping Bug report in the power menu opens the report form straight away.",
+            "Holding Bug report in the power menu now opens the same report form as tapping it.",
+            "The “Allow USB debugging?” message now says in plain words what a computer can do once you allow it.",
+            "Quick Settings opens with a pull from the very top edge of the screen, at any speed, like other Android tablets, and swipes that start lower reach your app.",
+            "Dragging the Brightness or Amber slider from anywhere on its bar moves it twice as far as your finger, and dragging the slider's handle follows your finger exactly.",
+            "While you pull Quick Settings down, its bottom edge shows the battery, time and date, so a short pull is enough to check the time; if you've tapped Show events in the mission control calendar, it also shows how long until your next event."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed a double press of the power button leaving the swipe lock screen up when Kindle was already open; Kindle now opens straight away, and with a PIN the tablet stays locked, so leaving Kindle asks for your PIN.",
+            "Fixed the lock screen taking a few seconds to go away when it closes without a swipe, such as after a double press of the power button; it now fades out at once.",
+            "Fixed Settings pages turning black on near-black, and hard to read, with dark mode on and the backlight off; they now stay white with black text, the Wi-Fi list too.",
+            "Fixed a tap outside the Report a bug form closing it and losing what you typed or recorded; Cancel and Back still close it.",
+            "Fixed the bug report's progress card covering your app for minutes and its percentage stalling; a short card now shows when the capture starts and when it ends, with the rest in the notification shade.",
+            "Fixed the keyboard covering the Report a bug form's mic and buttons.",
+            "Fixed Software Update closing with an error when an update was already installing in the background; it now shows that install's progress.",
+            "Fixed the month on the sidebar clock getting cut off with a larger font size or a tall font.",
+            "Fixed choosing Note Overlay for the Action button not opening the overlay.",
+            "Fixed the Tutorial app not letting you leave with the Home swipe, or with Back from its first screen."
+          ]
+        },
+        {
+          "type": "note_overlay_improvements",
+          "title": "Note Overlay Improvements",
+          "items": [
+            "A new snip shows its handles straight away, so you can move it with a finger without tapping it first."
+          ]
+        },
+        {
+          "type": "note_overlay_fixes",
+          "title": "Note Overlay Bug Fixes",
+          "items": [
+            "Fixed dragging a snip from the left edge going Back and cancelling the snip.",
+            "Fixed a swipe up from the bottom edge during a snip cancelling it; while you snip, the bottom edge now does nothing."
+          ]
+        },
+        {
+          "type": "known_issues",
+          "title": "Known Issues",
+          "items": [
+            "Some banking and payment apps may refuse to open while Developer options or USB debugging is on; if one does, turn off USB debugging as described above, and if it still refuses, switch off Developer options at the top of its page.",
+            "Wireless debugging is not on by default, and it turns itself off when your tablet restarts or its Wi-Fi drops.",
+            "In Developer options, Take bug report makes Android's own report without the form, and Bug report handler should stay on Software Update; to report a bug, use Bug report in the power menu.",
+            "Right after this update, Google Meet may not open the first time you tap it; tap it again.",
+            "Release Notes can open on an older release right after a newer one comes out; scroll up to see the newest."
+          ]
+        },
+        {
+          "type": "update_stuck",
+          "title": "If the Update Gets Stuck",
+          "items": [
+            "If your tablet restarts while this update is installing, tapping Download and install may then do nothing: wait 5 minutes, open Software Update, and if its percentage is going up, leave it to finish.",
+            "If it still does nothing, go to Settings > Apps > See all apps, tap Software Updater, then Storage & cache, Clear storage and Delete; this also resets Software Update's own settings and deletes any bug report it hasn't sent or shared yet.",
+            "Open Software Update again, wait for it to check for updates, tap Download and install and confirm; if Software Update closes by itself, wait 5 minutes and clear its storage once more."
+          ]
+        },
+        {
+          "type": "report_bugs",
+          "title": "Reporting Bugs",
+          "items": [
+            "Hold the power button, tap Bug report, type what went wrong or hold the mic to record a voice note, then tap Send.",
+            "When it says “Sent to the Daylight team”, we have your report, with your tablet's logs and a screenshot.",
+            "If it says “Bug report ready” instead, tap it to share the report yourself; your last five reports also stay in your Download folder, under Bug reports."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.26",
+      "date": "2026-11-02",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Note Overlay is rebuilt and comes built in with this update; see the Note Overlay section below.",
+            "Bug report in the power menu: describe a problem in writing or out loud, and your tablet captures its logs and a screenshot for you to share.",
+            "Ask the AI overlay how to do something on your tablet: it answers with the DC-1's real menus and steps.",
+            "Low battery pop-up: at 20%, 10% and 5% battery, a pop-up at the bottom of the screen warns you over whatever app is open, in place of the old low battery notification.",
+            "Update card for built-in apps: Home and the other built-in apps no longer update during setup or while you're using them; a card on Home lets you choose Update now or Tonight.",
+            "Lock screen photo: in Customization > Wallpaper, under Wallpaper on lock screen, choose Own photo to use a different photo from your Home screen.",
+            "Shrink to fit: turn on Customization > Style > Sidebar > Shrink to fit so that, with more than seven apps, the sidebar's apps and clock get smaller to fit instead of scrolling.",
+            "Keep apps level: turn on Customization > Style > App list > Keep apps level so the apps stay level while you scrub the letters, instead of sliding down beside your finger near Z."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "See your battery percentage in the status bar; it's now on by default.",
+            "Private DNS is back in Settings.",
+            "The power menu, the volume panel and the Wi-Fi panel have a new design.",
+            "Search in Settings has a new design in the SolOS style.",
+            "See your tablet's serial number right below its name in Settings > About tablet.",
+            "Customization and Key Mapper are now in your app list, so you can open them from there or add them to the sidebar.",
+            "Holding a sidebar app and letting go now shows Move apps at the top of its sheet, so you can drag it to a new place.",
+            "The entry above A on the letter rail, which opens all your apps, is now three lines instead of a small dot, so it's easier to find.",
+            "An app that is updating shows dimmed with its progress, and tapping it tells you it's updating instead of doing nothing.",
+            "Interrupted app updates from the Store now finish on their own, and automatic updates no longer show install pop-ups.",
+            "Swiping up from the bottom edge reacts straight away: a soft fade rises with your finger, a quick swipe carries on to Home, and holding the drag turns the fade into the taskbar.",
+            "Hardware buttons react faster to a single press, so a double press now needs two quicker presses.",
+            "Software Update's message just before an update restart now names the SolOS version being installed."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed your tablet switching back to SolOS Home after you choose another Home app, such as Niagara, in Settings.",
+            "Fixed the AI overlay's Ask Anything explainer being hard to read in dark mode.",
+            "Fixed the status bar icons being hard to see in Software Update when dark mode is on.",
+            "Fixed the Swipe and None screen lock options not sticking; swiping to unlock now fades into Home or the app you were using.",
+            "Fixed swipes near the top of an app pulling down Quick Settings instead; the pull-down area is now smaller.",
+            "Fixed a resting palm opening menus or the taskbar while your pen hovers just above the screen.",
+            "Fixed the lock screen not keeping your own wallpaper.",
+            "Fixed the taskbar not opening when you swipe for it right after closing it over Home, and a tap above it then opening your last app instead of Home.",
+            "Fixed the taskbar flashing back for a moment after you tap above it to close it, and a black flash when going Home from the taskbar over Home.",
+            "Fixed Google Meet not finding a USB camera the first time it opens.",
+            "Fixed the tutorial leaving your screen very dim after its warm light steps; the brightness now returns to your own level.",
+            "Fixed Home replaying its start-up animation after you change the display size, dark mode or bold text."
+          ]
+        },
+        {
+          "type": "note_overlay",
+          "title": "Note Overlay",
+          "items": [
+            "Note Overlay is rebuilt and comes built in with this update: a new pad, library and notebook store, made as separate parts so it is more stable and ready for more features.",
+            "So much of it is new that you may find a few rough edges; please send us a bug report when you do.",
+            "The first time it opens, your notebooks come over, so let it finish.",
+            "If a notebook seems missing, restart the tablet; please don't clear the app's storage.",
+            "There is no Google Drive backup in this version, so your notes stay on the tablet.",
+            "Import your Noteshelf notebooks from the ⋯ menu > Import notebooks from Noteshelf, shown while Noteshelf is on the tablet.",
+            "Import your Glassnote notebooks from the ⋯ menu > Import notebooks from Glassnote (shown while Glassnote or its backup files are on the tablet) or from Settings > Backups > Restore from a backup; infinite-canvas notebooks come over as ordinary pages.",
+            "A selected snip has its own ⋯ menu, opened with a finger tap, with Duplicate, Copy, Cut, Paste, Delete and a 90° turn.",
+            "Hold a selected snip with a finger for a moment, then drag, to pull off a copy.",
+            "⋯ > Add image puts a picture or screenshot on the page as a snip you can move, resize and turn.",
+            "A two-finger spread now zooms to 2.5× instead of 4×; set your own level in Settings > Writing > Zoom-in level, from 1.5× to 4×, or switch Zoom to Continuous so the page follows your fingers and stays where you let go.",
+            "Turning the tablet keeps the page's shape and your place, with no stretching.",
+            "Turn on a quiet pencil sound while you write in Settings > Writing; it plays at media volume.",
+            "Choose what the stylus button does under ⋯ > Choose stylus button: Highlighter, Eraser, Lasso, Thick pen, Snip or Nothing; it stays Highlighter unless you change it.",
+            "A level highlight snaps straight onto the line; turn this off in Settings > Writing.",
+            "Exported PDFs leave out blank pages at the end; turn this off in Settings > Notebooks.",
+            "Note Overlay's Settings is now one screen with seven topics.",
+            "A new, shorter tour: Ray shows each step, then you try it; replay it at ⋯ > Replay onboarding."
+          ]
+        },
+        {
+          "type": "note_overlay_improvements",
+          "title": "Note Overlay Improvements",
+          "items": [
+            "Your Archive is easier to reach: tap the notebook's name, and the pop-up has an Archive button above Close.",
+            "Zooming in and out is quicker.",
+            "Zooming out no longer slides the page sideways.",
+            "A selected snip moves the moment you drag it, with no hold first.",
+            "To scroll past a selected snip, start beside it or tap off it first.",
+            "A snip that hangs onto the next page can be tapped there.",
+            "A snip dropped after a long drag lands on the page under it.",
+            "When zoomed in, you can pinch snips smaller.",
+            "Paste lands where your pen or finger last touched, where you can see it, and a second paste steps past the first.",
+            "The lone Paste button has a close box.",
+            "Hold still at the end of a highlight to straighten it, as with the pen.",
+            "The highlighter's outline is softer.",
+            "Ink comes out at full width straight away, with no thin, swelling end.",
+            "The pen starts on the second size unless you already chose one.",
+            "A resting palm or finger is ignored the whole time the pen is down.",
+            "The eraser shows a thin ring of what it will take, and takes what it visibly crosses.",
+            "Lifting the pen no longer leaves a flick of extra ink.",
+            "The glass starts a little stronger if you never adjusted it (93%, or 90% in dark mode); for the old look, turn on Settings > Look > See more of the app underneath.",
+            "Glass is one setting for every notebook, so switching notebooks keeps the glass you last chose.",
+            "A flick after passing a scroll from one finger to another throws at the right speed.",
+            "A finger that starts between pages scrolls properly.",
+            "Scrolling past the end leaves one spare blank page, not two.",
+            "Back closes the open card or panel first, instead of closing the notebook.",
+            "On the lock screen the toolbar stays in view, with locked tools grayed out.",
+            "Big backups restore, including ones full of pictures.",
+            "Note Overlay no longer shows an accessibility warning or a “displaying over other apps” notice.",
+            "In dark mode the snip screen dims more, so it's clear you're snipping.",
+            "A new section or project scrolls into view and is briefly marked.",
+            "If a new notebook can't be created, Settings says why."
+          ]
+        },
+        {
+          "type": "note_overlay_fixes",
+          "title": "Note Overlay Bug Fixes",
+          "items": [
+            "Fixed many edge-case bugs of the old version, including crashes and ink floating out of place.",
+            "Fixed Delete this page needing more than one tap; “Page deleted · Undo” now lets you take it back.",
+            "Fixed the Paste button popping up on its own after you tap to end a selection.",
+            "Fixed a shaky pen lift throwing you out of snipping; a deliberate tap still leaves.",
+            "Fixed a second press of the top button on the lock screen not hiding your notes again, in both lock modes.",
+            "Fixed the stylus button not erasing in Noteshelf.",
+            "Fixed the notebook library not responding to finger taps, only to the pen.",
+            "Fixed a Glassnote file with no readable handwriting making a long blank notebook; it's now refused with a message."
+          ]
+        },
+        {
+          "type": "known_issues",
+          "title": "Known Issues",
+          "items": [
+            "While your tablet captures a bug report, its progress card can cover the app you're using for about three minutes, and its percentage can stall before jumping ahead.",
+            "Right after this update, Google Meet may not open the first time you tap it; tap it again.",
+            "The Store may not update your apps until you open it, so open the Store from time to time to get app updates.",
+            "If you ever chose a lock screen wallpaper in Android's own wallpaper settings, choosing Own photo in Customization won't show on the lock screen; that wallpaper stays.",
+            "Release Notes can open on an older release right after a newer one comes out; scroll up to see the newest."
+          ]
+        },
+        {
+          "type": "report_bugs",
+          "title": "Reporting Bugs",
+          "items": [
+            "Hold the power button, tap Bug report, type what went wrong or hold the mic to record a voice note, then tap Capture.",
+            "When “Bug report ready” appears, tap it to share the report, which includes your tablet's logs and a screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.23",
+      "date": "2026-10-26",
+      "sections": [
+        {
+          "type": "important",
+          "title": "Important",
+          "items": [
+            "If your font in Home was Space Grotesk or split screen was turned off, this update switches the font to Original and turns split screen back on, once; you can change both again under Customization in Home."
+          ]
+        },
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Split screen mode: press and hold an app on the taskbar to open it next to the one you're using, then tap Change order to swap sides.",
+            "Add websites to Home screen: use “Add to Home screen” in Chrome, Firefox or another browser to add a page to your app list, and hold it to remove it.",
+            "Revised taskbar: apps are right-aligned, a more responsive flick-up gesture closes an app, and closing the current app goes to Home instead of the next app.",
+            "Kindle on the power button: double-press the power button to open Kindle, even when the screen is locked; change this in Key Mapper.",
+            "Analog lock screen clocks: choose Plain, Flare, Window or Day in Customization > Wallpaper.",
+            "Your own wallpaper: tap Choose photo or video in Customization > Wallpaper.",
+            "Tutorial app: open Tutorial from your app list to go through the SolOS tutorial again.",
+            "Sidebar shortcuts: hold an app in the sidebar to see its shortcuts; you can still drag it to move it.",
+            "Adjustable start of the week: choose which day the week starts on in the mission control calendar.",
+            "Update notice: when an update is ready, a notice offers Remind me later and View update.",
+            "Preinstalled apps: apps you uninstall now stay uninstalled, and Niagara, Markup, Exchange and Reader can now be uninstalled too.",
+            "Quick swipe between apps (Experimental): swipe sideways along the bottom edge, the top edge or with five fingers to switch apps; it's off by default, so turn it on in Customization > Controls > Switch apps."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Add to sidebar adds several apps in one go, without reopening the menu.",
+            "The Home clock follows your 24-hour time setting and your chosen font.",
+            "The Brightness and Amber sliders change only when you drag them, to avoid accidental jumps; tap the icons at either end to adjust them a step at a time.",
+            "The Settings app is more responsive, and its pages open full screen again.",
+            "The Settings app follows dark mode.",
+            "In landscape mode, the lock screen shows the clock and notifications side by side.",
+            "Lock screen text is easier to read on any wallpaper.",
+            "App icons render better in grayscale.",
+            "Scrubbing through the A to Z letters is smoother.",
+            "Software Update asks before installing any update you start, and tells you when SolOS is updating and which version you're on afterwards.",
+            "Setup lets you show the password you typed, and tells you when a Wi-Fi network needs a sign-in or has no internet."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed a palm rejection bug that could cause occasional crashes while writing with the pen.",
+            "Fixed Settings closing when you open contactless payments.",
+            "Fixed Software Update closing when you open it in split screen.",
+            "Fixed Release Notes not opening from Software Update.",
+            "Fixed Google Meet getting stuck loading during its first-time setup.",
+            "Fixed the lock screen picture flashing after you enter your PIN; the screen now fades straight into Home.",
+            "Fixed a palm resting on the bottom edge opening the taskbar or switching apps while you write.",
+            "Fixed swiping up from the bottom edge to open the taskbar scrolling the open app.",
+            "Fixed Auto light/dark mode not switching when your tablet wakes from sleep.",
+            "Fixed the quick action button waking your tablet or opening Note Overlay from sleep; wake your tablet first to use it.",
+            "Fixed Home showing the app list you left open when you come back to it.",
+            "Fixed a removed clock module not being addable back to the sidebar.",
+            "Fixed a Clear sidebar not staying clear in dark mode.",
+            "Fixed Setup's Wi-Fi step not recognizing the network you're already on.",
+            "Fixed pressing the power button during the tutorial putting your tablet to sleep."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.17",
+      "date": "2026-10-19",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Set a button shortcut to open the AI overlay."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "See a redesigned Settings app in the SolOS style."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.16",
+      "date": "2026-10-19",
+      "sections": [
+        {
+          "type": "important",
+          "title": "Important",
+          "items": [
+            "Daylight View is not included in this release."
+          ]
+        },
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Set a button shortcut to switch back to your previous app."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Read the release notes in a window inside Software Update, with your installed version marked, instead of on a web page.",
+            "Turn the light back on with a button shortcut and it returns to its last brightness.",
+            "Tap the icons at either end of the Quick Settings sliders to adjust them.",
+            "See the last stretch of the Amber slider marked with a notch, and hear a distinct sound at full Amber and at the lowest light.",
+            "Follow the tutorial's taskbar lesson more easily, with only the lesson's app on the taskbar and your Home screen behind it."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.15",
+      "date": "2026-10-16",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "See refreshed welcome and setup-complete screens, with smoother animations, illustrated scenery and larger rounded buttons."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.14",
+      "date": "2026-10-16",
+      "sections": [
+        {
+          "type": "important",
+          "title": "Important",
+          "items": [
+            "After this update, your tablet returns to the Home space once; your previous spaces are backed up.",
+            "Magic Ink is temporarily turned off in this release."
+          ]
+        },
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Open Quick Settings directly from the lock screen."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Learn more from expanded tutorials covering the Home screen, taskbar and hardware buttons.",
+            "See your app shortcuts as soon as the taskbar opens.",
+            "Swipe in from the left edge to go back, leaving the right edge free for gestures inside apps.",
+            "Get clearer guidance for the Amber slider and taskbar gestures.",
+            "See refreshed Home screen visuals and smoother animations."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.13",
+      "date": "2026-10-16",
+      "sections": [
+        {
+          "type": "important",
+          "title": "Important",
+          "items": [
+            "This update removes the previous Note Overlay app and deletes the notes stored in it; its daily backups stay in Download/Note Overlay 3/Backups.",
+            "Updates marked for automatic installation may now install and restart your tablet during the day, not only overnight."
+          ]
+        },
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Alpha tablets can now check for and install selected updates automatically."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "See a refreshed design in Software Update.",
+            "Use the updated Daylight View, with its accessibility support turned on automatically after updating."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed two note overlays running at once; only the new Note Overlay app is now included.",
+            "Fixed a Play Protect “App scan recommended” prompt appearing when the Daylight Store installs or updates Daylight's own apps; other apps are still checked as usual."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.12",
+      "date": "2026-10-15",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Discover SolOS features with a new guided tutorial.",
+            "View notifications and music controls on the updated lock screen."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Swipe inward from either screen edge to go back.",
+            "Take screenshots without a screen flash or shutter sound.",
+            "Enjoy a smoother taskbar and more reliable app switching.",
+            "See clearer Wi-Fi information and improved controls in Quick Settings.",
+            "Close the Note Overlay pad with a second upward swipe.",
+            "Automatic dark mode follows your local sunrise and sunset more accurately."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed cases where quick button presses could trigger the wrong action.",
+            "Fixed issues with taskbar taps and closing apps.",
+            "Removed unnecessary kids' app installers from the system image; apps already installed remain available."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.11",
+      "date": "2026-10-14",
+      "sections": [
+        {
+          "type": "important",
+          "title": "Important",
+          "items": [
+            "Notes stored in the previous Note Overlay app are not automatically imported into the new app in this release."
+          ]
+        },
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Use the redesigned Note Overlay with the orange action button.",
+            "Customize supported hardware-button shortcuts in Settings.",
+            "Explore the redesigned lock screen."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Enjoy a refreshed Quick Settings panel, including a better landscape layout and larger sliders.",
+            "See connected Wi-Fi and Bluetooth device names more clearly.",
+            "Use a smoother taskbar and more reliable swipe gestures after rotating the screen.",
+            "Adjust screen warmth and frontlight brightness with refined controls."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Kindle can now update to the newer included version without losing its app data.",
+            "Fixed issues that could leave parts of Quick Settings faded or cause problems when Bluetooth device information was unavailable."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.10",
+      "date": "2026-10-13",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Get a connection notification when the Daylight keyboard case connects, including its battery level when available.",
+            "Check supported Bluetooth accessory battery levels in Settings.",
+            "Explore improved app switching and Mission Control."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Adjust frontlight brightness more precisely with updated controls.",
+            "Use expanded hardware-button actions and shortcuts."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Improved Bluetooth reliability for supported accessories.",
+            "Prepared Note Overlay for future app updates through the Daylight Store."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.9",
+      "date": "2026-10-12",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Updated the SolOS Home experience.",
+            "Improved the way the tablet returns to Home when app switching is interrupted."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed a crash that could occur if you returned Home before an app finished opening.",
+            "Fixed cases where app switching could leave a blank screen."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.8",
+      "date": "2026-10-09",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Try the updated SolOS Home and Quick Settings experience.",
+            "Use the redesigned compact taskbar for app navigation."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Quick Settings stays accessible after initial setup.",
+            "Simplified Home navigation and streamlined the taskbar.",
+            "Updated the Home and HUD apps."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.7",
+      "date": "2026-10-08",
+      "sections": [
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed a critical startup issue affecting the previous alpha release.",
+            "Updated SolOS Home and Store compatibility."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.5",
+      "date": "2026-10-07",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Meet the refreshed SolOS Quick Settings and compact app-navigation experience.",
+            "Enjoy smoother screen transitions."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Pen strokes no longer pull down Quick Settings while writing near the top of the screen.",
+            "Holding the orange button from sleep more reliably starts a snip.",
+            "Updated the included Kindle app for new installations.",
+            "Improved support for passkey sign-in."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.4",
+      "date": "2026-10-06",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Improved passkey sign-in using another device, including supported QR-code flows.",
+            "Updated the Daylight Store integration for app updates."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.3",
+      "date": "2026-09-30",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Added Daylight Store and Daylight Experiments to the system image."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed a welcome/setup card that could reappear after restarting the tablet.",
+            "Corrected the software version shown in Settings."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.2",
+      "date": "2026-09-28",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Improved the transition to SolOS Home after upgrading from older software.",
+            "Added Niagara Launcher as an optional launcher choice.",
+            "Updated Note Overlay with a fix for notes getting stuck while saving after moving a snip."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10.1",
+      "date": "2026-09-25",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Improved orange-button and walkie-talkie behavior when waking the tablet.",
+            "Made the updated Alpha 10 fixes available through a distinct software update version."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.10",
+      "date": "2026-09-24",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Added an optional Stylus boost setting for more responsive pen interaction on supported display modes."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Improved performance support for apps that request faster processing during active work.",
+            "Improved the reliability of SolOS Home after updating from older launcher versions."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed unwanted taskbar and screen flashes that could appear after startup.",
+            "Fixed several screenshot/snipping interface issues.",
+            "Fixed an issue that could leave a dark bar along the bottom of the screen.",
+            "Improved the reliability of the orange action button and walkie-talkie shortcuts."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.9",
+      "date": "2026-09-22",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Double-press the orange button to open the note pad more reliably, including when waking the tablet.",
+            "Improved the appearance of the Home screen after restarting or updating."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed the black bar and brief app-switching flashes that could appear during startup.",
+            "Removed an unnecessary Daylight Keys notification at startup.",
+            "Fixed clipping in the snip labeling controls.",
+            "Improved the consistency of display-setting resets immediately after an update."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.8.2",
+      "date": "2026-09-17",
+      "sections": [
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed an issue where the display size could reset after every restart instead of only after a software update."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.8",
+      "date": "2026-09-14",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Writing with the stylus near the edge of the screen is less likely to trigger navigation gestures accidentally.",
+            "Improved rejection of accidental touches from your resting palm while writing.",
+            "Improved double-press recognition for the power button."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Removed a dark strip from the bottom of the first-time setup experience."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.7",
+      "date": "2026-09-11",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Press the orange button to wake the screen and open the note pad.",
+            "Updated Note Overlay and the Magic Ink experience."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed an issue where pressing the orange button while the tablet was asleep did not wake the screen."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.6",
+      "date": "2026-09-11",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Added Daylight account sign-in support during setup.",
+            "Improved Magic Ink and AI overlay functionality."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Camera and microphone permissions are ready for supported video-calling apps installed from Google Play, while remaining adjustable in Settings."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.5",
+      "date": "2026-09-10",
+      "sections": [
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed voice labeling for screenshots and snips so it works without additional permission setup.",
+            "Removed an unwanted dark strip at the bottom of the Home screen."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.4",
+      "date": "2026-09-10",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Hold the orange button to take a snip.",
+            "Use Magic Ink and the walkie-talkie AI overlay with supported hardware buttons.",
+            "Hold a volume button to change screen brightness."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Updated the Daylight View app."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.3",
+      "date": "2026-09-10",
+      "sections": [
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Improved Zoom compatibility with supported external USB webcams."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.2",
+      "date": "2026-09-10",
+      "sections": [
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "The orange button opens the note pad without additional setup.",
+            "Note Overlay can appear over other apps as intended."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed an issue where accessibility services could become disabled after restarting."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.18-alpha.1",
+      "date": "2026-09-09",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Introduced Note Overlay as part of SolOS.",
+            "Added initial support for orange-button note shortcuts.",
+            "Added a power-button double-press shortcut for Kindle."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "product": "SolOS",
+  "device": "jagar",
+  "channel": "stable",
+  "updatedAt": "2026-11-19",
+  "releases": [
+    {
+      "version": "0.9.9.669.customer.3",
+      "date": "2026-11-19",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Daylight Mirror is built in, so you can show your Mac or PC screen on your DC-1 over USB-C or Wi-Fi.",
+            "A new Software Update app replaces Software Updates: find it in your apps or in Settings > System, and install an update with one tap.",
+            "Tap Release Notes in Software Update to see what's new in each update.",
+            "Update reminders wait until your battery is at least 20% or your tablet is charging.",
+            "The Daylight Store app is now on your tablet, where you can get the latest Daylight Mirror.",
+            "Use a USB webcam for video calls in apps such as Zoom, Google Meet and Microsoft Teams.",
+            "See the battery level of a connected Bluetooth keyboard or mouse in Settings."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Kindle is updated to version 8.157, and your books and sign-in carry over.",
+            "Zoom, Google Meet and Microsoft Teams from the Play Store can use your camera and microphone on your first call without asking, and you can still turn this off in Settings.",
+            "The screen now refreshes between 45 and 90 Hz by default.",
+            "Pictures now show as apps draw them, without the tablet's built-in color and sharpening effects."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed Zoom asking for USB access to the webcam, which could stop the webcam until you unplugged it.",
+            "Fixed the camera in Google Meet and Microsoft Teams taking several seconds to start and failing on the first try."
+          ]
+        }
+      ]
+    }
+  ]
+}
