@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "product": "SolOS",
+  "device": "jagar",
+  "channel": "stable",
+  "updatedAt": "2026-11-19",
+  "releases": [
+    {
+      "version": "0.9.9.669.customer.2",
+      "date": "2026-11-19",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Daylight Mirror: show your Mac or PC screen on your DC-1, over USB-C or Wi-Fi.",
+            "A new Software Update app. It tells you when an update is ready and installs it with one tap."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Kindle is updated to version 8.157. Your books and sign-in carry over.",
+            "Scrolling with a finger while mirroring a Mac keeps going smoothly instead of stopping."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "The version number on the Software Update screen is no longer cut off."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.9.9.60.customer.2",
+      "date": "2026-11-17",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Daylight Mirror: show your Mac or PC screen on your DC-1, over USB-C or Wi-Fi.",
+            "A new Software Update app. It tells you when an update is ready and installs it with one tap."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "Kindle is updated to version 8.157. Your books and sign-in carry over."
+          ]
+        }
+      ]
+    }
+  ]
+}
