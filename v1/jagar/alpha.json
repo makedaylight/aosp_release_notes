@@ -3,8 +3,49 @@
   "product": "SolOS",
   "device": "jagar",
   "channel": "alpha",
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "releases": [
+    {
+      "version": "1.0.18-alpha.10.34",
+      "date": "2026-11-24",
+      "sections": [
+        {
+          "type": "new",
+          "title": "What's New",
+          "items": [
+            "Pull down near the top-right corner of the screen to open the quick menu.",
+            "Choose where the lock screen clock sits: top left, top center or the middle of the screen, in Customization.",
+            "Your pen can do the same edge swipes as your finger; there is a switch for it in Customization.",
+            "Light off in bright light: the light turns off in sunlight and comes back on when it gets dim; there is a switch for it in Customization.",
+            "The Sol keyboard: Daylight’s own on-screen keyboard.",
+            "Daylight Mirror now comes built in."
+          ]
+        },
+        {
+          "type": "improvements",
+          "title": "Improvements",
+          "items": [
+            "The lock screen now shows your tablet’s real battery percentage.",
+            "A new look for SolOS, with new power screens.",
+            "Home, the HUD and Note Overlay are updated to 2026.11.23.1."
+          ]
+        },
+        {
+          "type": "fixes",
+          "title": "Bug Fixes",
+          "items": [
+            "Fixed some apps crashing when they show a loading spinner, such as Chrome’s first-run screen, Viz Manga, and older versions of Gmail and Readwise.",
+            "Fixed the eraser on the pen’s side button in Noteshelf, Squid and Nebo: SolOS now leaves that button to those apps.",
+            "Fixed the pen’s buttons not being read correctly while the pen hovers above the screen.",
+            "Fixed a double press of the Action button not running its action while the tablet is asleep.",
+            "Fixed several problems in the share sheet.",
+            "Fixed the compact taskbar going blank when you swipe.",
+            "Fixed the screen flashing when the AI overlay grabs the screen.",
+            "Fixed Software Update getting stuck on “Checking for updates”; its dots now move while it checks."
+          ]
+        }
+      ]
+    },
     {
       "version": "1.0.18-alpha.10.33",
       "date": "2026-11-23",
